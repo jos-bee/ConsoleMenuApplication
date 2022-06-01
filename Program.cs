@@ -70,11 +70,10 @@ namespace StringManipulation
 
         private static void ShowOptions()
         {
-            Console.WriteLine("Please choose an option:");
             Console.WriteLine("1) Reversing a string");
             Console.WriteLine("2) Removing Whitespace from a string");
             Console.WriteLine("3) Exit");
-            Console.Write("\r\nSelect an option: ");
+            Console.Write("\r\nPlease, select an option: ");
         }
     }
 }
